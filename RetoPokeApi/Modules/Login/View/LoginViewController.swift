@@ -14,11 +14,15 @@ protocol LoginViewControllerPresenterProtocol{
 class LoginViewController: UIViewController{
     
     var presenter: LoginPresenterViewControllerProtocol?
+    @IBOutlet weak var userTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
 
+    @IBAction func validatorButton(_ sender: Any) {
+        presenter?.validate(userTextField.text ?? "", passwordTextField.text ?? "")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
 }

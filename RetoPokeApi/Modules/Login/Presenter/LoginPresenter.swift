@@ -8,11 +8,12 @@
 import Foundation
 
 protocol LoginPresenterViewControllerProtocol{
-    
+    func validate(_ user: String, _ password: String)
 }
 
 protocol LoginPresenterInteractorProtocol{
-    
+    func showPokemonList()
+    func showErrorAlert(error: String)
 }
 
 protocol LoginPresenterRouterProtocol{
@@ -26,10 +27,21 @@ class LoginPresenter{
 }
 
 extension LoginPresenter: LoginPresenterViewControllerProtocol{
+    func validate(_ user: String, _ password: String) {
+        interactor?.validate(user, password)
+    }
+    
     
 }
 
 extension LoginPresenter: LoginPresenterInteractorProtocol{
+    func showPokemonList() {
+        router?.showPokemonList()
+    }
+    
+    func showErrorAlert(error: String) {
+        router?.showErrorAlert(error: error)
+    }
     
 }
 
