@@ -6,3 +6,19 @@
 //
 
 import Foundation
+
+protocol PokemonListInteractorPresenterProtocol{
+    
+}
+
+class PokemonListInteractor{
+    var presenter: PokemonListPresenterInteractorProtocol?
+    
+    init(presenter: PokemonListPresenterInteractorProtocol? = nil) {
+        self.presenter = presenter
+    }
+}
+
+extension PokemonListInteractor: PokemonListInteractorPresenterProtocol{
+    
+}
