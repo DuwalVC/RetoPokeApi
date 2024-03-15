@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class LoginConfigurator {
     static func makeView() -> UIViewController {
