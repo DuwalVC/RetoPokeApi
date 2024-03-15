@@ -6,3 +6,19 @@
 //
 
 import Foundation
+
+protocol LoginInteractorPresenterProtocol{
+    
+}
+
+class LoginInteractor{
+    var presenter: LoginPresenterInteractorProtocol?
+    
+    init(presenter: LoginPresenterInteractorProtocol? = nil) {
+        self.presenter = presenter
+    }
+}
+
+extension LoginInteractor: LoginInteractorPresenterProtocol{
+    
+}
