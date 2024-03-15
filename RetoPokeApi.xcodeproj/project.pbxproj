@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D6569EF2BA48F6300E8C211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6569EE2BA48F6300E8C211 /* AppDelegate.swift */; };
+		6D6569F12BA48F6300E8C211 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6569F02BA48F6300E8C211 /* SceneDelegate.swift */; };
+		6D6569F32BA48F6300E8C211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6569F22BA48F6300E8C211 /* ViewController.swift */; };
+		6D6569F62BA48F6300E8C211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6569F42BA48F6300E8C211 /* Main.storyboard */; };
+		6D6569F92BA48F6300E8C211 /* RetoPokeApi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D6569F72BA48F6300E8C211 /* RetoPokeApi.xcdatamodeld */; };
+		6D6569FB2BA48F6500E8C211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6569FA2BA48F6500E8C211 /* Assets.xcassets */; };
+		6D6569FE2BA48F6500E8C211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6569FC2BA48F6500E8C211 /* LaunchScreen.storyboard */; };
+		6D656A092BA48F6500E8C211 /* RetoPokeApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D656A082BA48F6500E8C211 /* RetoPokeApiTests.swift */; };
+		6D656A132BA48F6500E8C211 /* RetoPokeApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D656A122BA48F6500E8C211 /* RetoPokeApiUITests.swift */; };
+		6D656A152BA48F6500E8C211 /* RetoPokeApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D656A142BA48F6500E8C211 /* RetoPokeApiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D656A052BA48F6500E8C211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D6569E32BA48F6300E8C211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D6569EA2BA48F6300E8C211;
+			remoteInfo = RetoPokeApi;
+		};
+		6D656A0F2BA48F6500E8C211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D6569E32BA48F6300E8C211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D6569EA2BA48F6300E8C211;
+			remoteInfo = RetoPokeApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D6569EB2BA48F6300E8C211 /* RetoPokeApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoPokeApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6569EE2BA48F6300E8C211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D6569F02BA48F6300E8C211 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6D6569F22BA48F6300E8C211 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D6569F52BA48F6300E8C211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D6569F82BA48F6300E8C211 /* RetoPokeApi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RetoPokeApi.xcdatamodel; sourceTree = "<group>"; };
+		6D6569FA2BA48F6500E8C211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D6569FD2BA48F6500E8C211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D6569FF2BA48F6500E8C211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D656A042BA48F6500E8C211 /* RetoPokeApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoPokeApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D656A082BA48F6500E8C211 /* RetoPokeApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoPokeApiTests.swift; sourceTree = "<group>"; };
+		6D656A0E2BA48F6500E8C211 /* RetoPokeApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoPokeApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D656A122BA48F6500E8C211 /* RetoPokeApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoPokeApiUITests.swift; sourceTree = "<group>"; };
+		6D656A142BA48F6500E8C211 /* RetoPokeApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoPokeApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D6569E82BA48F6300E8C211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D656A012BA48F6500E8C211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D656A0B2BA48F6500E8C211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D6569E22BA48F6300E8C211 = {
+			isa = PBXGroup;
+			children = (
+				6D6569ED2BA48F6300E8C211 /* RetoPokeApi */,
+				6D656A072BA48F6500E8C211 /* RetoPokeApiTests */,
+				6D656A112BA48F6500E8C211 /* RetoPokeApiUITests */,
+				6D6569EC2BA48F6300E8C211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D6569EC2BA48F6300E8C211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D6569EB2BA48F6300E8C211 /* RetoPokeApi.app */,
+				6D656A042BA48F6500E8C211 /* RetoPokeApiTests.xctest */,
+				6D656A0E2BA48F6500E8C211 /* RetoPokeApiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D6569ED2BA48F6300E8C211 /* RetoPokeApi */ = {
+			isa = PBXGroup;
+			children = (
+				6D6569EE2BA48F6300E8C211 /* AppDelegate.swift */,
+				6D6569F02BA48F6300E8C211 /* SceneDelegate.swift */,
+				6D6569F22BA48F6300E8C211 /* ViewController.swift */,
+				6D6569F42BA48F6300E8C211 /* Main.storyboard */,
+				6D6569FA2BA48F6500E8C211 /* Assets.xcassets */,
+				6D6569FC2BA48F6500E8C211 /* LaunchScreen.storyboard */,
+				6D6569FF2BA48F6500E8C211 /* Info.plist */,
+				6D6569F72BA48F6300E8C211 /* RetoPokeApi.xcdatamodeld */,
+			);
+			path = RetoPokeApi;
+			sourceTree = "<group>";
+		};
+		6D656A072BA48F6500E8C211 /* RetoPokeApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D656A082BA48F6500E8C211 /* RetoPokeApiTests.swift */,
+			);
+			path = RetoPokeApiTests;
+			sourceTree = "<group>";
+		};
+		6D656A112BA48F6500E8C211 /* RetoPokeApiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D656A122BA48F6500E8C211 /* RetoPokeApiUITests.swift */,
+				6D656A142BA48F6500E8C211 /* RetoPokeApiUITestsLaunchTests.swift */,
+			);
+			path = RetoPokeApiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D6569EA2BA48F6300E8C211 /* RetoPokeApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D656A182BA48F6500E8C211 /* Build configuration list for PBXNativeTarget "RetoPokeApi" */;
+			buildPhases = (
+				6D6569E72BA48F6300E8C211 /* Sources */,
+				6D6569E82BA48F6300E8C211 /* Frameworks */,
+				6D6569E92BA48F6300E8C211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetoPokeApi;
+			productName = RetoPokeApi;
+			productReference = 6D6569EB2BA48F6300E8C211 /* RetoPokeApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D656A032BA48F6500E8C211 /* RetoPokeApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D656A1B2BA48F6500E8C211 /* Build configuration list for PBXNativeTarget "RetoPokeApiTests" */;
+			buildPhases = (
+				6D656A002BA48F6500E8C211 /* Sources */,
+				6D656A012BA48F6500E8C211 /* Frameworks */,
+				6D656A022BA48F6500E8C211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D656A062BA48F6500E8C211 /* PBXTargetDependency */,
+			);
+			name = RetoPokeApiTests;
+			productName = RetoPokeApiTests;
+			productReference = 6D656A042BA48F6500E8C211 /* RetoPokeApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D656A0D2BA48F6500E8C211 /* RetoPokeApiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D656A1E2BA48F6500E8C211 /* Build configuration list for PBXNativeTarget "RetoPokeApiUITests" */;
+			buildPhases = (
+				6D656A0A2BA48F6500E8C211 /* Sources */,
+				6D656A0B2BA48F6500E8C211 /* Frameworks */,
+				6D656A0C2BA48F6500E8C211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D656A102BA48F6500E8C211 /* PBXTargetDependency */,
+			);
+			name = RetoPokeApiUITests;
+			productName = RetoPokeApiUITests;
+			productReference = 6D656A0E2BA48F6500E8C211 /* RetoPokeApiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D6569E32BA48F6300E8C211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6D6569EA2BA48F6300E8C211 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6D656A032BA48F6500E8C211 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6D6569EA2BA48F6300E8C211;
+					};
+					6D656A0D2BA48F6500E8C211 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6D6569EA2BA48F6300E8C211;
+					};
+				};
+			};
+			buildConfigurationList = 6D6569E62BA48F6300E8C211 /* Build configuration list for PBXProject "RetoPokeApi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D6569E22BA48F6300E8C211;
+			productRefGroup = 6D6569EC2BA48F6300E8C211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D6569EA2BA48F6300E8C211 /* RetoPokeApi */,
+				6D656A032BA48F6500E8C211 /* RetoPokeApiTests */,
+				6D656A0D2BA48F6500E8C211 /* RetoPokeApiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D6569E92BA48F6300E8C211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6569FE2BA48F6500E8C211 /* LaunchScreen.storyboard in Resources */,
+				6D6569FB2BA48F6500E8C211 /* Assets.xcassets in Resources */,
+				6D6569F62BA48F6300E8C211 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D656A022BA48F6500E8C211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D656A0C2BA48F6500E8C211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D6569E72BA48F6300E8C211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6569F32BA48F6300E8C211 /* ViewController.swift in Sources */,
+				6D6569EF2BA48F6300E8C211 /* AppDelegate.swift in Sources */,
+				6D6569F12BA48F6300E8C211 /* SceneDelegate.swift in Sources */,
+				6D6569F92BA48F6300E8C211 /* RetoPokeApi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D656A002BA48F6500E8C211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D656A092BA48F6500E8C211 /* RetoPokeApiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D656A0A2BA48F6500E8C211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D656A152BA48F6500E8C211 /* RetoPokeApiUITestsLaunchTests.swift in Sources */,
+				6D656A132BA48F6500E8C211 /* RetoPokeApiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D656A062BA48F6500E8C211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D6569EA2BA48F6300E8C211 /* RetoPokeApi */;
+			targetProxy = 6D656A052BA48F6500E8C211 /* PBXContainerItemProxy */;
+		};
+		6D656A102BA48F6500E8C211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D6569EA2BA48F6300E8C211 /* RetoPokeApi */;
+			targetProxy = 6D656A0F2BA48F6500E8C211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D6569F42BA48F6300E8C211 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D6569F52BA48F6300E8C211 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D6569FC2BA48F6500E8C211 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D6569FD2BA48F6500E8C211 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D656A162BA48F6500E8C211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D656A172BA48F6500E8C211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D656A192BA48F6500E8C211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FTRQEU8QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetoPokeApi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivegru.RetoPokeApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6D656A1A2BA48F6500E8C211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FTRQEU8QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetoPokeApi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivegru.RetoPokeApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6D656A1C2BA48F6500E8C211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FTRQEU8QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivegru.RetoPokeApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetoPokeApi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetoPokeApi";
+			};
+			name = Debug;
+		};
+		6D656A1D2BA48F6500E8C211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FTRQEU8QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivegru.RetoPokeApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetoPokeApi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetoPokeApi";
+			};
+			name = Release;
+		};
+		6D656A1F2BA48F6500E8C211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FTRQEU8QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivegru.RetoPokeApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetoPokeApi;
+			};
+			name = Debug;
+		};
+		6D656A202BA48F6500E8C211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FTRQEU8QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivegru.RetoPokeApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetoPokeApi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D6569E62BA48F6300E8C211 /* Build configuration list for PBXProject "RetoPokeApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D656A162BA48F6500E8C211 /* Debug */,
+				6D656A172BA48F6500E8C211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D656A182BA48F6500E8C211 /* Build configuration list for PBXNativeTarget "RetoPokeApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D656A192BA48F6500E8C211 /* Debug */,
+				6D656A1A2BA48F6500E8C211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D656A1B2BA48F6500E8C211 /* Build configuration list for PBXNativeTarget "RetoPokeApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D656A1C2BA48F6500E8C211 /* Debug */,
+				6D656A1D2BA48F6500E8C211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D656A1E2BA48F6500E8C211 /* Build configuration list for PBXNativeTarget "RetoPokeApiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D656A1F2BA48F6500E8C211 /* Debug */,
+				6D656A202BA48F6500E8C211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D6569F72BA48F6300E8C211 /* RetoPokeApi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D6569F82BA48F6300E8C211 /* RetoPokeApi.xcdatamodel */,
+			);
+			currentVersion = 6D6569F82BA48F6300E8C211 /* RetoPokeApi.xcdatamodel */;
+			path = RetoPokeApi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D6569E32BA48F6300E8C211 /* Project object */;
+}
