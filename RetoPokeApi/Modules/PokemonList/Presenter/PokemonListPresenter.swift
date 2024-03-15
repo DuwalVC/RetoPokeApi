@@ -8,11 +8,11 @@
 import Foundation
 
 protocol PokemonListPresenterViewControllerProtocol{
-    
+    func getPokemonList(requestPage: String)
 }
 
 protocol PokemonListPresenterInteractorProtocol{
-    
+    func setData(_ response: PokemonList)
 }
 
 protocol PokemonListPresenterRouterProtocol{
@@ -26,10 +26,16 @@ class PokemonListPresenter{
 }
 
 extension PokemonListPresenter: PokemonListPresenterViewControllerProtocol{
+    func getPokemonList(requestPage: String) {
+        interactor?.getPokemonList(requestPage: requestPage)
+    }
     
 }
 
 extension PokemonListPresenter: PokemonListPresenterInteractorProtocol{
+    func setData(_ response: PokemonList) {
+        view?.setData(response)
+    }
     
 }
 
