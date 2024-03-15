@@ -9,7 +9,8 @@ import Foundation
 import UIKit
 
 protocol LoginRouterPresenterProtocol{
-    
+    func showPokemonList()
+    func showErrorAlert(error: String)
 }
 
 class LoginRouter {
@@ -23,5 +24,13 @@ class LoginRouter {
 }
 
 extension LoginRouter: LoginRouterPresenterProtocol{
+    func showErrorAlert(error: String) {
+        let alert = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: nil))
+        view?.present(alert, animated: true, completion: nil)
+    }
     
+    func showPokemonList() {
+        view?.navigationController?.pushViewController(PokemonListConfigurator.makeView(), animated: true)
+    }
 }
