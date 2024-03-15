@@ -11,7 +11,7 @@ import UIKit
 class PokemonListConfigurator {
     static func makeView() -> UIViewController {
         let storyboardMain = UIStoryboard(name: "Main", bundle: nil)
-        guard let view = storyboardMain.instantiateViewController(identifier: "PokemonListIdentifier") as? PokemonListViewController else {
+        guard let view = storyboardMain.instantiateViewController(identifier: "pokemonListIdentifier") as? PokemonListViewController else {
             return PokemonListViewController()
         }
         
