@@ -19,7 +19,7 @@ class PokemonListConfigurator {
         
         view.presenter = presenter
         
-        let interactor = PokemonListInteractor(presenter: presenter)
+        let interactor = PokemonListInteractor(presenter: presenter, api: ApiService())
         
         let router = PokemonListRouter(view: view, presenter: presenter)
         

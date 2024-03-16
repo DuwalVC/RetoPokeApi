@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class PokemonDetailsConfigurator {
-    static func makeView() -> UIViewController {
+    static func makeView(id: String?) -> UIViewController {
         let storyboardMain = UIStoryboard(name: "Main", bundle: nil)
         guard let view = storyboardMain.instantiateViewController(identifier: "pokemonDetailsIdentifier") as? PokemonDetailsViewController else {
             return PokemonDetailsViewController()
