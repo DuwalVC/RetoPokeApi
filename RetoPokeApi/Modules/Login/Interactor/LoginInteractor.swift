@@ -14,7 +14,7 @@ protocol LoginInteractorPresenterProtocol{
 class LoginInteractor{
     
     var sessionTimer: Timer?
-    let sessionDuration: TimeInterval = 1 * 60
+    let sessionDuration: TimeInterval = 15 * 60
         
     
     var presenter: LoginPresenterInteractorProtocol?
