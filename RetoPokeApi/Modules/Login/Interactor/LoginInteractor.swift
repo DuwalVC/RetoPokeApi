@@ -12,6 +12,11 @@ protocol LoginInteractorPresenterProtocol{
 }
 
 class LoginInteractor{
+    
+    var sessionTimer: Timer?
+    let sessionDuration: TimeInterval = 1 * 60
+        
+    
     var presenter: LoginPresenterInteractorProtocol?
     
     init(presenter: LoginPresenterInteractorProtocol? = nil) {
@@ -28,6 +33,7 @@ extension LoginInteractor: LoginInteractorPresenterProtocol{
             if (user == "Admin" && password == "Password*123") {
                 print("usuario valido")
                 presenter?.showPokemonList()
+                startSessionTimer()
             } else {
                 presenter?.showErrorAlert(error: "No valido")
             }
@@ -39,6 +45,12 @@ extension LoginInteractor: LoginInteractorPresenterProtocol{
             presenter?.showErrorAlert(error: "No cumple con los criterios de seguridad")
         }
         
+    }
+    
+    func startSessionTimer() {
+        sessionTimer = Timer.scheduledTimer(withTimeInterval: sessionDuration, repeats: false) { [weak self] timer in
+            self?.presenter?.showLogin()
+        }
     }
     
 }

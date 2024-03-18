@@ -20,5 +20,149 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "058197BC-FA79-49BC-8332-275DE08F5F36"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RetoPokeApi/Extra/Networking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getPokemonDetails(name:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "058197BC-FA79-49BC-8332-275DE08F5F36 - 79a8f28b2dbc19b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;RetoPokeApi.PokemonDetails, Alamofire.AFError&gt;) -&gt; () in RetoPokeApi.ApiService.getPokemonDetails(name: Swift.String, _: (Swift.Optional&lt;RetoPokeApi.PokemonDetails&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RetoPokeApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dvarillc/Documents/RetoPokeApi/RetoPokeApi/Extra/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "712">
+               </Location>
+               <Location
+                  uuid = "058197BC-FA79-49BC-8332-275DE08F5F36 - 79a8f28b2dbc19b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;RetoPokeApi.PokemonDetails, Alamofire.AFError&gt;) -&gt; () in RetoPokeApi.ApiService.getPokemonDetails(name: Swift.String, _: (Swift.Optional&lt;RetoPokeApi.PokemonDetails&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RetoPokeApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dvarillc/Documents/RetoPokeApi/RetoPokeApi/Extra/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "836">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7018A585-A684-4654-91B5-562DE1C27FFA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RetoPokeApi/Extra/Networking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getPokemonDetails(name:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7018A585-A684-4654-91B5-562DE1C27FFA - 79a8f28b2dbc19f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;RetoPokeApi.PokemonDetails, Alamofire.AFError&gt;) -&gt; () in RetoPokeApi.ApiService.getPokemonDetails(name: Swift.String, _: (Swift.Optional&lt;RetoPokeApi.PokemonDetails&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RetoPokeApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dvarillc/Documents/RetoPokeApi/RetoPokeApi/Extra/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1436">
+               </Location>
+               <Location
+                  uuid = "7018A585-A684-4654-91B5-562DE1C27FFA - 79a8f28b2dbc19f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;RetoPokeApi.PokemonDetails, Alamofire.AFError&gt;) -&gt; () in RetoPokeApi.ApiService.getPokemonDetails(name: Swift.String, _: (Swift.Optional&lt;RetoPokeApi.PokemonDetails&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RetoPokeApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dvarillc/Documents/RetoPokeApi/RetoPokeApi/Extra/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D993DDC2-E9E0-4596-81BD-D6E4D248D8F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RetoPokeApi/Modules/PokemonDetails/View/PokemonDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "setPokeDetails(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D993DDC2-E9E0-4596-81BD-D6E4D248D8F1 - e1f2d463e6ce3267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RetoPokeApi.PokemonDetailsViewController.setPokeDetails(RetoPokeApi.PokemonDetails) -&gt; ()"
+                  moduleName = "RetoPokeApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dvarillc/Documents/RetoPokeApi/RetoPokeApi/Modules/PokemonDetails/View/PokemonDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "D993DDC2-E9E0-4596-81BD-D6E4D248D8F1 - e1f2d463e6ce3284"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RetoPokeApi.PokemonDetailsViewController.setPokeDetails(RetoPokeApi.PokemonDetails) -&gt; ()"
+                  moduleName = "RetoPokeApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dvarillc/Documents/RetoPokeApi/RetoPokeApi/Modules/PokemonDetails/View/PokemonDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

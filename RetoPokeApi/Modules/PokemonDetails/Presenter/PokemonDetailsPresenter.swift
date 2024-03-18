@@ -8,11 +8,11 @@
 import Foundation
 
 protocol PokemonDetailsPresenterViewControllerProtocol{
-    
+    func getPokemonDetails(_ name: String)
 }
 
 protocol PokemonDetailsPresenterInteractorProtocol{
-    
+    func setPokeDetails(_ response: PokemonDetails)
 }
 
 protocol PokemonDetailsPresenterRouterProtocol{
@@ -26,10 +26,16 @@ class PokemonDetailsPresenter{
 }
 
 extension PokemonDetailsPresenter: PokemonDetailsPresenterViewControllerProtocol{
+    func getPokemonDetails(_ name: String) {
+        interactor?.getPokemonDetails(name)
+    }
     
 }
 
 extension PokemonDetailsPresenter: PokemonDetailsPresenterInteractorProtocol{
+    func setPokeDetails(_ response: PokemonDetails) {
+        view?.setPokeDetails(response)
+    }
     
 }
 

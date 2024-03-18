@@ -31,7 +31,6 @@ extension PokemonListInteractor: PokemonListInteractorPresenterProtocol{
             } else {
                 print("error \(error)" ?? "userAuthentication() error no encontrado")
                 
-//                self.presenter?.showAlert()
             }
         })
     }
