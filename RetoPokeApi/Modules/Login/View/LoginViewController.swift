@@ -19,6 +19,8 @@ class LoginViewController: UIViewController{
 
     @IBAction func validatorButton(_ sender: Any) {
         presenter?.validate(userTextField.text ?? "", passwordTextField.text ?? "")
+        userTextField.text = ""
+        passwordTextField.text = ""
     }
     
     override func viewDidLoad() {

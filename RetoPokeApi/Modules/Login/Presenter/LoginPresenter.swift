@@ -12,6 +12,7 @@ protocol LoginPresenterViewControllerProtocol{
 }
 
 protocol LoginPresenterInteractorProtocol{
+    func showLogin()
     func showPokemonList()
     func showErrorAlert(error: String)
 }
@@ -35,6 +36,10 @@ extension LoginPresenter: LoginPresenterViewControllerProtocol{
 }
 
 extension LoginPresenter: LoginPresenterInteractorProtocol{
+    func showLogin() {
+        router?.showLogin()
+    }
+    
     func showPokemonList() {
         router?.showPokemonList()
     }

@@ -24,7 +24,7 @@ class PokemonListRouter {
 
 extension PokemonListRouter: PokemonListRouterPresenterProtocol{
     func showPokemonDetails(pokemon: PokemonElement) {
-        view?.navigationController?.pushViewController(PokemonDetailsConfigurator.makeView(id:pokemon.url.extractNumberFromURL()), animated: true)
+        view?.navigationController?.pushViewController(PokemonDetailsConfigurator.makeView(name:pokemon.name), animated: true)
     }
     
 }

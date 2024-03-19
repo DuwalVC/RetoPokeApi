@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 protocol LoginRouterPresenterProtocol{
+    func showLogin()
     func showPokemonList()
     func showErrorAlert(error: String)
 }
@@ -24,6 +25,10 @@ class LoginRouter {
 }
 
 extension LoginRouter: LoginRouterPresenterProtocol{
+    func showLogin() {
+        view?.navigationController?.popToRootViewController(animated: true)
+    }
+    
     func showErrorAlert(error: String) {
         let alert = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: nil))
